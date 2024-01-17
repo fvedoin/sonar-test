@@ -1,0 +1,1 @@
+{"version":3,"file":"lastHourDto.stub.js","sourceRoot":"","sources":["../../../../src/influx/stubs/lastHourDto.stub.ts"],"names":[],"mappings":";;;AAAO,MAAM,gBAAgB,GAAG,GAAG,EAAE;IACnC,OAAO;QACL,IAAI,EAAE,uBAAuB;QAC7B,QAAQ,EAAE,YAAY;QACtB,MAAM,EAAE,aAAa;QACrB,KAAK,EAAE,SAAS;KACjB,CAAC;AACJ,CAAC,CAAC;AAPW,QAAA,gBAAgB,oBAO3B"}

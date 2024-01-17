@@ -1,0 +1,1 @@
+{"version":3,"file":"news.stub.js","sourceRoot":"","sources":["../../../../src/news/stubs/news.stub.ts"],"names":[],"mappings":";;;AAAA,uCAAiC;AAG1B,MAAM,QAAQ,GAAG,GAAS,EAAE;IACjC,OAAO;QACL,GAAG,EAAE,IAAI,gBAAK,CAAC,QAAQ,CAAC,0BAA0B,CAAC;QACnD,WAAW,EAAE,OAAO;QACpB,KAAK,EAAE,EAAE;QACT,GAAG,EAAE,QAAQ;QACb,KAAK,EAAE,QAAQ;KAChB,CAAC;AACJ,CAAC,CAAC;AARW,QAAA,QAAQ,YAQnB"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"client.stub.js","sourceRoot":"","sources":["../../../../src/clients/stubs/client.stub.ts"],"names":[],"mappings":";;;AAAA,uCAAiC;AAI1B,MAAM,WAAW,GAAG,CAAC,cAA+B,EAAU,EAAE;IACrE,OAAO;QACL,GAAG,cAAc;QACjB,GAAG,EAAE,IAAI,gBAAK,CAAC,QAAQ,CAAC,0BAA0B,CAAC;KACpD,CAAC;AACJ,CAAC,CAAC;AALW,QAAA,WAAW,eAKtB"}

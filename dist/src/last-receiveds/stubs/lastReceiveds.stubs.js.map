@@ -1,0 +1,1 @@
+{"version":3,"file":"lastReceiveds.stubs.js","sourceRoot":"","sources":["../../../../src/last-receiveds/stubs/lastReceiveds.stubs.ts"],"names":[],"mappings":";;;AAAA,uCAAiC;AAE1B,MAAM,kBAAkB,GAAG,GAAG,EAAE,CAAC,CAAC;IACvC,QAAQ,EAAE,IAAI,gBAAK,CAAC,QAAQ,CAAC,0BAA0B,CAAC;IACxD,IAAI,EAAE,CAAC;IACP,UAAU,EAAE,IAAI,IAAI,CAAC,0BAA0B,CAAC;CACjD,CAAC,CAAC;AAJU,QAAA,kBAAkB,sBAI5B"}

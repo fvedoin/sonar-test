@@ -1,0 +1,1 @@
+{"version":3,"file":"meter-change.stub.js","sourceRoot":"","sources":["../../../../src/meter-change/stubs/meter-change.stub.ts"],"names":[],"mappings":";;;AAAA,uCAAiC;AAI1B,MAAM,gBAAgB,GAAG,CAC9B,mBAAyC,EAC3B,EAAE;IAChB,OAAO;QACL,GAAG,mBAAmB;QACtB,GAAG,EAAE,IAAI,gBAAK,CAAC,QAAQ,CAAC,0BAA0B,CAAC;KACpD,CAAC;AACJ,CAAC,CAAC;AAPW,QAAA,gBAAgB,oBAO3B"}

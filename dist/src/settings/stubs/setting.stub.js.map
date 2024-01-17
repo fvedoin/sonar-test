@@ -1,0 +1,1 @@
+{"version":3,"file":"setting.stub.js","sourceRoot":"","sources":["../../../../src/settings/stubs/setting.stub.ts"],"names":[],"mappings":";;;AAAA,uCAAiC;AAI1B,MAAM,YAAY,GAAG,CAAC,gBAAkC,EAAW,EAAE;IAC1E,OAAO;QACL,GAAG,gBAAgB;QACnB,GAAG,EAAE,IAAI,gBAAK,CAAC,QAAQ,CAAC,0BAA0B,CAAC;KACpD,CAAC;AACJ,CAAC,CAAC;AALW,QAAA,YAAY,gBAKvB"}

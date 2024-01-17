@@ -1,0 +1,37 @@
+import { FilterQuery } from 'mongoose';
+import { DeviceTrDocument } from './entities/devices-tr.entity';
+import { DevicesTrRepository } from './devices-tr.repository';
+import { UserFromJwt } from 'src/auth/models/UserFromJwt';
+import { TransformersService } from 'src/transformers/transformers.service';
+import { FindDeviceTrAnalyticsDto } from './dto/find-device-tr-analytcs.dto';
+import { InfluxService } from 'src/influx/influx.service';
+import { InfluxBucketsService } from 'src/influx-buckets/influx-buckets.service';
+import { InfluxConnectionsService } from 'src/influx-connections/influx-connections.service';
+export declare class DevicesTrService {
+    private readonly deviceTrRepository;
+    private readonly transformerService;
+    private readonly influxService;
+    private readonly influxBucketService;
+    private readonly influxConnectionService;
+    constructor(deviceTrRepository: DevicesTrRepository, transformerService: TransformersService, influxService: InfluxService, influxBucketService: InfluxBucketsService, influxConnectionService: InfluxConnectionsService);
+    getAnalytics(query: FindDeviceTrAnalyticsDto): Promise<string[][]>;
+    findWhere(whereClause: FilterQuery<DeviceTrDocument>): Promise<any[]>;
+    findFilteredDevicesTr(user: UserFromJwt): Promise<any[]>;
+    private handleAdminRoute;
+    private handleNonAdminRoute;
+    private handleOrgAdminRoute;
+    findTelikTrafoLiteDevices(user: UserFromJwt): Promise<any[]>;
+    private handleAdminRouteForTelikTrafoLite;
+    private handleNonAdminRouteForTelikTrafoLite;
+    private handleOrgAdminRouteForTelikTrafoLite;
+    findFilteredTransformerTelikTrafoLite(user: UserFromJwt, clientId: string): Promise<any[]>;
+    private handleAdminRouteForFiltered;
+    private handleOrgAdminRouteForFiltered;
+    private handleNonAdminRouteForFiltered;
+    findFilteredTransformerDevices(user: UserFromJwt, clientId: string): Promise<any[]>;
+    private handleAdminRouteForFilteredDevices;
+    private handleOrgAdminRouteForFilteredDevices;
+    private handleNonAdminRouteForFilteredDevices;
+    findOne(id: string): Promise<import("./entities/devices-tr.entity").DeviceTr>;
+    remove(ids: string[]): Promise<void>;
+}

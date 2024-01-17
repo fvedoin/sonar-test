@@ -1,0 +1,1 @@
+{"version":3,"file":"removeTrailingSlash.js","sourceRoot":"","sources":["../../../../src/common/utils/removeTrailingSlash.ts"],"names":[],"mappings":";;;AAAO,MAAM,mBAAmB,GAAG,CAAC,GAAW,EAAU,EAAE;IACzD,OAAO,GAAG,CAAC,OAAO,CAAC,MAAM,EAAE,EAAE,CAAC,CAAC;AACjC,CAAC,CAAC;AAFW,QAAA,mBAAmB,uBAE9B"}

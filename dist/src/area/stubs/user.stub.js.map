@@ -1,0 +1,1 @@
+{"version":3,"file":"user.stub.js","sourceRoot":"","sources":["../../../../src/area/stubs/user.stub.ts"],"names":[],"mappings":";;;AAEO,MAAM,QAAQ,GAAG,GAAgB,EAAE;IACxC,OAAO;QACL,EAAE,EAAE,0BAA0B;QAC9B,QAAQ,EAAE,OAAO;QACjB,IAAI,EAAE,OAAO;QACb,QAAQ,EAAE,0BAA0B;QACpC,OAAO,EAAE,CAAC,EAAE,CAAC;QACb,WAAW,EAAE,OAAO;KACrB,CAAC;AACJ,CAAC,CAAC;AATW,QAAA,QAAQ,YASnB"}

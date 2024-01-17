@@ -1,0 +1,1 @@
+{"version":3,"file":"linkGatewayDTO.stub.js","sourceRoot":"","sources":["../../../../src/gateways/stubs/linkGatewayDTO.stub.ts"],"names":[],"mappings":";;;AAEO,MAAM,oBAAoB,GAAG,CAClC,GAA6B,EACb,EAAE;IAClB,OAAO;QACL,QAAQ,EAAE,0BAA0B;QACpC,QAAQ,EAAE,SAAS;QACnB,SAAS,EAAE,SAAS;QACpB,GAAG,GAAG;KACP,CAAC;AACJ,CAAC,CAAC;AATW,QAAA,oBAAoB,wBAS/B"}

@@ -1,0 +1,30 @@
+import mongoose, { Types } from 'mongoose';
+import { Client } from 'src/clients/entities/client.entity';
+import { DeviceGb, DeviceGbDocument } from 'src/devices-gb/entities/devices-gb.entity';
+import { Transformer } from 'src/transformers/entities/transformer.entity';
+import { Point } from '../models/PointSchema';
+import { AbstractDocument } from 'src/common/database/abstract.schema';
+export declare class Uc extends AbstractDocument {
+    clientId: string | Types.ObjectId | Client;
+    transformerId: Types.ObjectId | Transformer | string;
+    deviceId: DeviceGbDocument | Types.ObjectId | DeviceGb | string;
+    routeCode: number;
+    ucCode: string;
+    ucNumber: string;
+    ucClass: string;
+    subClass: string;
+    billingGroup: number;
+    ratedVoltage: number;
+    group: string;
+    subGroup: string;
+    sequence: string;
+    phases: string;
+    circuitBreaker: number;
+    microgeneration: boolean;
+    city: string;
+    district: string;
+    isCutted: boolean;
+    timeZone: string;
+    location: Point;
+}
+export declare const UcSchema: mongoose.Schema<Uc, mongoose.Model<Uc, any, any, any, any>, {}, {}, {}, {}, "type", Uc>;
