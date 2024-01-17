@@ -1,0 +1,30 @@
+version: '3.4'
+
+services:
+  spinon-nestjs:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    environment:
+      - "NODE_ENV=${NODE_ENV}"
+      - "REDIS_HOST=${REDIS_HOST}"
+      - "REDIS_PORT=${REDIS_PORT}"
+      - "PORT=${PORT}"
+      - "JWT_SECRET=${JWT_SECRET}"
+      - "TTN_HOST=${TTN_HOST}"
+      - "TTN_USE=${TTN_USE}"
+      - "TTN_TOKEN=${TTN_TOKEN}"
+      - "MONGO_URI=${MONGO_URI}"
+    ports:
+      - 3333:3333
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.backendnest.rule=(Host(`api.${VAR_DOMAIN}`) && PathPrefix(`/v2`))"
+      - "traefik.http.routers.backendnest.service=backendnest@docker"
+      - "traefik.http.services.backendnest.loadbalancer.server.port=3333"
+
+    network_mode: bridge
+
+networks:
+  bridge:
+    external: true

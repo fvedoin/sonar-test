@@ -1,0 +1,1 @@
+{"version":3,"file":"alertGateway.stub.js","sourceRoot":"","sources":["../../../../src/alert-gateway/stubs/alertGateway.stub.ts"],"names":[],"mappings":";;;AAAA,uCAAiC;AAI1B,MAAM,iBAAiB,GAAG,CAC/B,oBAA2C,EAC7B,EAAE;IAChB,OAAO;QACL,GAAG,oBAAoB;QACvB,GAAG,EAAE,IAAI,gBAAK,CAAC,QAAQ,CAAC,0BAA0B,CAAC;KACpD,CAAC;AACJ,CAAC,CAAC;AAPW,QAAA,iBAAiB,qBAO5B"}
